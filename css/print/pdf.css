@@ -77,6 +77,14 @@ ul, ol, div, p {
 	overflow: visible;
 	margin: auto;
 }
+body,
+.reveal,
+.reveal .slides {
+	background: white;
+	border: none;
+	margin: 0;
+	border: 0;
+}
 .reveal .slides {
 	position: static;
 	width: 100%;
@@ -103,7 +111,7 @@ ul, ol, div, p {
 	        perspective-origin: 50% 50%;
 }
 .reveal .slides>section, .reveal .slides>section>section {
-	
+	background: white;
 	visibility: visible !important;
 	position: static !important;
 	width: 100% !important;

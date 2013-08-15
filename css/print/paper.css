@@ -98,6 +98,10 @@ ul, ol, div, p {
 	margin: auto;
 	text-align: left !important;
 }
+.reveal,
+.reveal .slides {
+	background: white;
+}
 .reveal .slides {
 	position: static;
 	width: auto;
@@ -125,7 +129,7 @@ ul, ol, div, p {
 }
 .reveal .slides>section, 
 .reveal .slides>section>section {
-	
+	background: white;
 	visibility: visible !important;
 	position: static !important;
 	width: 90% !important;
